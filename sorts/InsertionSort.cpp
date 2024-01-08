@@ -15,12 +15,12 @@ int main() {
         }
         /*
             Other wise
-            int key = arr[i], sortedIndex = i - 1;
-            while(sortedIndex >= 0 && key < arr[i]) {
-                arr[sortedIndex + 1] = arr[i];
+            int key = nums[i], sortedIndex = i - 1;
+            while(sortedIndex >= 0 && key < nums[i]) {
+                nums[sortedIndex + 1] = nums[i];
                 sortedIndex--;
             }
-            arr[sortedIndex] = key;
+            nums[sortedIndex] = key;
         */
     }
    
