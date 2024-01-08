@@ -13,6 +13,15 @@ int main() {
         while(nums[selectedIndex] < nums[sortedIndex] && sortedIndex >= 0) {
             swap(nums[selectedIndex--], nums[sortedIndex--]);
         }
+        /*
+            Other wise
+            int key = arr[i], sortedIndex = i - 1;
+            while(sortedIndex >= 0 && key < arr[i]) {
+                arr[sortedIndex + 1] = arr[i];
+                sortedIndex--;
+            }
+            arr[sortedIndex] = key;
+        */
     }
    
 
