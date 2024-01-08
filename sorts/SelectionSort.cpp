@@ -23,5 +23,5 @@ int main() {
 
 }
 /*
-    Bubble sort O(N^2);
+    Selection sort O(N^2);
 */
