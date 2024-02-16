@@ -1,6 +1,5 @@
 #include <iostream>
 #include <algorithm>
-
 #define ll long long
 #define f first
 #define s second
