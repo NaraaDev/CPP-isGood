@@ -1,8 +1,12 @@
 #include <iostream>
 #include <algorithm>
+#include <vector>
+#include <cmath>
+
 #define ll long long
-#define f first
-#define s second
+#define F first
+#define S second
+#define pb push_back
 
 using namespace std;
 
